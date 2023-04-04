@@ -1,0 +1,58 @@
+body {
+	background: #FFF1DC;
+	color: gray;
+	font-size: 18px;
+	font-family: circular;
+	text-align: left;
+}
+h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+h3{
+	color: black;
+	text-align: center;
+}
+h1, h2{
+	color: #3A98B9;
+	text-align: center;
+}
+a{
+	font-weight: bold;
+}
+ div{
+	text-align:justify-all;
+	text-justify:values;
+}
+ .card-white{
+ 	background-color: white;
+    padding: 50px;
+    box-shadow: 0px 10px 35px rgb(0 0 0 / 10%);
+    border-radius: 5px;
+    margin: 20px;
+ }
+ .container{
+ 	width: 750px;
+ 	margin:40px auto;
+ }
+.img-circle{
+	border-radius: 50%;
+}
+@media(max-width: 650px){
+ 	.container{
+ 		width: auto;
+  	display: inline-block;
+ 	}
+ }
+ @media(max-width: 550px){
+ 	.container{
+ 		width: auto;
+  	display: inline-block;
+ 	}
+ }
+.zoom {
+  transition: transform .2s; 
+}
+.zoom:hover {
+  transform: scale(1.5);
+}
